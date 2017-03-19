@@ -21,3 +21,6 @@ Version 1.40 Changelist
 - Perk: Health Boost increased from 40% to 50%, up to a max health bonus of 250%
 - Perk: Health Boost now grants 10% health regeneration up to a max health regeneration of 50% 
 - Veterancy Rate increased by 25%
+- Hardened Perk now gives 30% combat effectiveness bonus up from 22.5%
+- Veteran Perk now gives 45% combat effectiveness bonus up from 37.5%
+- Elite Perk now gives 60% combat effectiveness bonus up from 52.5%
