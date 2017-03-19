@@ -405,12 +405,12 @@ BuffBlueprint {
 	Duration = -1,
 	Affects = {
 	EnergyProductionBuf = {
-	        Add = 5.575,
-			Mult = 1.0265,
+	        Add = 1.39375,
+			Mult = 1.0066,
         },
 	    MassProductionBuf = {
-            Add = 0.0875,
-			Mult = 1.01825,
+            Add = 0.021875,
+			Mult = 1.0045,
         },
 	},
 }
