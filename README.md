@@ -15,3 +15,8 @@ Version 1.40 Changelist
 - Add Storage Capacity Veterancy for Mass and Energy Storage that increases their capacity by 0.1% per level up.
 - Fix RAS bug where Commander stop gaining energy and mass after upgrading RAS.
 - Add Nuke Damage and Radius Veterancy to increase the nuclear missile destructive power per level up.
+
+[*]TvG Official v1.41 upcoming changes
+
+- Perk: Health Boost increased from 40% to 50%, up to a max health bonus of 250%
+- Perk: Health Boost now grants 10% health regeneration up to a max health regeneration of 50% 
