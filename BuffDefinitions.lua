@@ -465,23 +465,23 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.225,
+            Mult = 1.3,
         },
 	RateOfFireBuf = {
             Add = 0,
-            Mult = 1.225,
+            Mult = 1.3,
         },
         Damage = {
             Add = 0,
-            Mult = 1.225,
+            Mult = 1.3,
         },
 	MoveMult = {
             Add = 0,
-            Mult = 1.225, --was 1.01
+            Mult = 1.3, --was 1.01
         },
         Regen = {
             Add = 0,
-            Mult = 1.225,--was 1.08
+            Mult = 1.3,--was 1.08
         },
     },
 }
@@ -496,23 +496,23 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.375,
+            Mult = 1.45,
         },
 	RateOfFireBuf = {
             Add = 0,
-            Mult = 1.375,
+            Mult = 1.45,
         },
         Damage = {
             Add = 0,
-            Mult = 1.375,
+            Mult = 1.45,
         },
 	MoveMult = {
             Add = 0,
-            Mult = 1.375, --was 1.01
+            Mult = 1.45, --was 1.01
         },
         Regen = {
             Add = 0,
-            Mult = 1.375,--was 1.08
+            Mult = 1.45,--was 1.08
         },
     },
 }
@@ -527,23 +527,23 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.525,
+            Mult = 1.6,
         },
 	RateOfFireBuf = {
             Add = 0,
-            Mult = 1.525,
+            Mult = 1.6,
         },
         Damage = {
             Add = 0,
-            Mult = 1.525,
+            Mult = 1.6,
         },
 	MoveMult = {
             Add = 0,
-            Mult = 1.525, --was 1.01
+            Mult = 1.6, --was 1.01
         },
         Regen = {
             Add = 0,
-            Mult = 1.525,--was 1.08
+            Mult = 1.6,--was 1.08
         },
     },
 }
