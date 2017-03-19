@@ -14,3 +14,4 @@ Version 1.40 Changelist
 
 - Add Storage Capacity Veterancy for Mass and Energy Storage that increases their capacity by 0.1% per level up.
 - Fix RAS bug where Commander stop gaining energy and mass after upgrading RAS.
+- Add Nuke Damage and Radius Veterancy to increase the nuclear missile destructive power per level up.
