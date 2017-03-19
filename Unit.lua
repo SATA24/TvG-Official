@@ -5,7 +5,7 @@
 --**
 --**  Summary  : The Unit lua module
 --**
---**  Copyright © 2005 Gas Powered Games, Inc.  All rights reserved.
+--**  Copyright Â© 2005 Gas Powered Games, Inc.  All rights reserved.
 --****************************************************************************
 local oldUnit=Unit
 Unit = Class(oldUnit) {
@@ -21,9 +21,9 @@ Unit = Class(oldUnit) {
             self.XpModfierInCombat = 3
             self.XpModfierOutOfCombat = 1
             self.XpModfierCombat = 1
-            self.XpModfier = 0.2
-            self.XpModfierBuffed = 0.4
-            self.XpModfierOld = 0.2
+            self.XpModfier = 0.25
+            self.XpModfierBuffed = 0.5
+            self.XpModfierOld = 0.25
             self.Waittime = bp.Economy.xpTimeStep * 0.002
             self.VeteranLevel = 1
             self.LevelProgress = 1
