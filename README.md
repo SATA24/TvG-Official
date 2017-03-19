@@ -12,9 +12,9 @@ Version 1.40 Changelist
 
 [*]#Features/Bugfixes To-do List (Still need to do it, feel free to help make contribution!)
 
-- X Add Storage Capacity Veterancy for Mass and Energy Storage that increases their capacity by 0.1% per level up.
+- Add Storage Capacity Veterancy for Mass and Energy Storage that increases their capacity by 0.1% per level up.
 - ✔ Fix RAS bug where Commander stop gaining energy and mass after upgrading RAS. [
-- X Add Nuke Damage and Radius Veterancy to increase the nuclear missile destructive power per level up.
+- Add Nuke Damage and Radius Veterancy to increase the nuclear missile destructive power per level up.
 
 [*]TvG Official v1.41 upcoming changes
 
@@ -26,3 +26,5 @@ Version 1.40 Changelist
 - Elite Perk now gives 60% combat effectiveness bonus up from 52.5%
 - Fixed RAS bug, ACUs and SCUs now should gain RAS bonus properly.
 - ACU Resource Production reduced by 75% to compensate for working RAS Bonus.
+- Energy Consumption Veterancy reduced from 1% to 0.25% and multipler from 0.5% to 0.125%
+- ACU Energy Consumption Veterancy reduced from multipler 0.125% to 0.1%
