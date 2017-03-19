@@ -13,7 +13,7 @@ Version 1.40 Changelist
 [*]#Features/Bugfixes To-do List (Still need to do it, feel free to help make contribution!)
 
 - Add Storage Capacity Veterancy for Mass and Energy Storage that increases their capacity by 0.1% per level up.
-- Fix RAS bug where Commander stop gaining energy and mass after upgrading RAS.
+- [s] Fix RAS bug where Commander stop gaining energy and mass after upgrading RAS.[/s]
 - Add Nuke Damage and Radius Veterancy to increase the nuclear missile destructive power per level up.
 
 [*]TvG Official v1.41 upcoming changes
@@ -24,3 +24,5 @@ Version 1.40 Changelist
 - Hardened Perk now gives 30% combat effectiveness bonus up from 22.5%
 - Veteran Perk now gives 45% combat effectiveness bonus up from 37.5%
 - Elite Perk now gives 60% combat effectiveness bonus up from 52.5%
+- Fixed RAS bug, ACUs and SCUs now should gain RAS bonus properly.
+- ACU Resource Production reduced by 75% to compensate for working RAS Bonus.
