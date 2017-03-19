@@ -467,7 +467,7 @@ BuffBlueprint {
             Add = 0,
             Mult = 1.225,
         },
-		RateOfFireBuf = {
+	RateOfFireBuf = {
             Add = 0,
             Mult = 1.225,
         },
@@ -475,7 +475,7 @@ BuffBlueprint {
             Add = 0,
             Mult = 1.225,
         },
-		MoveMult = {
+	MoveMult = {
             Add = 0,
             Mult = 1.225, --was 1.01
         },
@@ -498,7 +498,7 @@ BuffBlueprint {
             Add = 0,
             Mult = 1.375,
         },
-		RateOfFireBuf = {
+	RateOfFireBuf = {
             Add = 0,
             Mult = 1.375,
         },
@@ -506,7 +506,7 @@ BuffBlueprint {
             Add = 0,
             Mult = 1.375,
         },
-		MoveMult = {
+	MoveMult = {
             Add = 0,
             Mult = 1.375, --was 1.01
         },
@@ -529,7 +529,7 @@ BuffBlueprint {
             Add = 0,
             Mult = 1.525,
         },
-		RateOfFireBuf = {
+	RateOfFireBuf = {
             Add = 0,
             Mult = 1.525,
         },
@@ -537,7 +537,7 @@ BuffBlueprint {
             Add = 0,
             Mult = 1.525,
         },
-		MoveMult = {
+	MoveMult = {
             Add = 0,
             Mult = 1.525, --was 1.01
         },
@@ -560,7 +560,7 @@ BuffBlueprint {
             Add = 0,
             Mult = 1.1,
         },
-		RateOfFireBuf = {
+	RateOfFireBuf = {
             Add = 0,
             Mult = 1.1,
         },
@@ -583,7 +583,7 @@ BuffBlueprint {
             Add = 0,
             Mult = 1.125,
         },
-		RateOfFireBuf = {
+	RateOfFireBuf = {
             Add = 0,
             Mult = 1.125,
         },
@@ -606,7 +606,7 @@ BuffBlueprint {
             Add = 0,
             Mult = 1.15,
         },
-		RateOfFireBuf = {
+	RateOfFireBuf = {
             Add = 0,
             Mult = 1.15,
         },
@@ -629,7 +629,7 @@ BuffBlueprint {
             Add = 0,
             Mult = 1.175,
         },
-		RateOfFireBuf = {
+	RateOfFireBuf = {
             Add = 0,
             Mult = 1.175,
         },
@@ -652,7 +652,7 @@ BuffBlueprint {
             Add = 0,
             Mult = 1.2,
         },
-		RateOfFireBuf = {
+	RateOfFireBuf = {
             Add = 0,
             Mult = 1.2,
         },
@@ -854,6 +854,10 @@ BuffBlueprint {
         MaxHealth = {
             Add = 0,
             Mult = 1.50,
+        },
+	Regen = {
+            Add = 0,
+            Mult = 1.10,
         },
     },
 }
