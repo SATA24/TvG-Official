@@ -346,8 +346,8 @@ BuffBlueprint {
     Duration = -1,
     Affects = {
         EnergyMaintenance = {
-            Add = 0.01,
-            Mult = 1.005,
+            Add = 0.0025,
+            Mult = 1.00125,
         },
     },
 }
@@ -365,7 +365,7 @@ BuffBlueprint {
     Affects = {
         EnergyMaintenance = {
             Add = 0.001,
-            Mult = 1.00125,
+            Mult = 1.001,
         },
     },
 }
