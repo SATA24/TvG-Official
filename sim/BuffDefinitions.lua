@@ -397,7 +397,7 @@ BuffBlueprint {
 ------------------------------------------------------------------------------------------------------------------------------------
 
 BuffBlueprint {
-    MaxLevel = 250,
+    MaxLevel = 1000,
 	Name = 'VeterancyACUResourceProduction',
 	DisplayName = 'VeterancyACUResourceProduction',
 	BuffType = 'VeterancyACUResourceProduction',
