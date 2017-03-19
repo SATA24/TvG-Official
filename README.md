@@ -20,3 +20,4 @@ Version 1.40 Changelist
 
 - Perk: Health Boost increased from 40% to 50%, up to a max health bonus of 250%
 - Perk: Health Boost now grants 10% health regeneration up to a max health regeneration of 50% 
+- Veterancy Rate increased by 25%
