@@ -16,7 +16,7 @@ Version 1.40 Changelist
 - ✔ Fix RAS bug where Commander stop gaining energy and mass after upgrading RAS. 
 - Add Nuke Damage and Radius Veterancy to increase the nuclear missile destructive power per level up.
 
-[*]TvG Official v1.41 upcoming changes
+[*]TvG Official v1.53 upcoming changes
 
 - Perk: Health Boost increased from 40% to 50%, up to a max health bonus of 250%
 - Perk: Health Boost now grants 10% health regeneration up to a max health regeneration of 50% 
@@ -25,6 +25,7 @@ Version 1.40 Changelist
 - Veteran Perk now gives 45% combat effectiveness bonus up from 37.5%
 - Elite Perk now gives 60% combat effectiveness bonus up from 52.5%
 - Fixed RAS bug, ACUs and SCUs now should gain RAS bonus properly.
+- SCU now should properly gain Commander Shield Veterancy.
 - ACU Resource Production reduced by 75% to compensate for working RAS Bonus.
 - Energy Consumption Veterancy reduced from 1% to 0.25% and multipler from 0.5% to 0.125%
-- ACU Energy Consumption Veterancy reduced from multipler 0.125% to 0.1%
+- ACU Energy Consumption Veterancy removed and ACU/SCUs no longer have energy consumption veterancy.
