@@ -534,9 +534,9 @@ Unit = Class(oldUnit) {
         end
 
         --Check for Hardened, Veteran, or Elite Status
-        if (old ==  600)  then self.BuffHardenedCheck = true 
-        if (old ==  800)  then self.BuffVeteranCheck  = true
-        if (old == 1000) then self.BuffEliteCheck    = true
+        if (old ==  600)  then self.BuffHardenedCheck = true end
+        if (old ==  800)  then self.BuffVeteranCheck  = true end
+        if (old == 1000)  then self.BuffEliteCheck    = true end
 
         if (self.BuffHardenedCheck) then 
             for k,bType in buffHardenedTypes do
@@ -557,14 +557,14 @@ Unit = Class(oldUnit) {
         end
 
         --Check for buffs applied on levels of multiples of 50, up to level 400
-        if (old ==  50) then self.Buff50Check  = true
-        if (old == 100) then self.Buff100Check = true
-        if (old == 150) then self.Buff150Check = true
-        if (old == 200) then self.Buff200Check = true
-        if (old == 250) then self.Buff250Check = true
-        if (old == 300) then self.Buff300Check = true
-        if (old == 350) then self.Buff350Check = true
-        if (old == 400) then self.Buff400Check = true
+        if (old ==  50) then self.Buff50Check  = true end
+        if (old == 100) then self.Buff100Check = true end
+        if (old == 150) then self.Buff150Check = true end
+        if (old == 200) then self.Buff200Check = true end
+        if (old == 250) then self.Buff250Check = true end
+        if (old == 300) then self.Buff300Check = true end
+        if (old == 350) then self.Buff350Check = true end
+        if (old == 400) then self.Buff400Check = true end
 
         if (self.Buff50Check) then
             for k,bType in buff50Types do
@@ -631,11 +631,11 @@ Unit = Class(oldUnit) {
                     Buff.ApplyBuff( self, 'Veterancy' .. bType)
                 end
 
-                if(old == 100) then self.BuffSupCan1Check = true
-                if(old == 200) then self.BuffSupCan2Check = true
-                if(old == 300) then self.BuffSupCan3Check = true
-                if(old == 400) then self.BuffSupCan4Check = true
-                if(old == 500) then self.BuffSupCan5Check = true
+                if(old == 100) then self.BuffSupCan1Check = true end
+                if(old == 200) then self.BuffSupCan2Check = true end
+                if(old == 300) then self.BuffSupCan3Check = true end
+                if(old == 400) then self.BuffSupCan4Check = true end
+                if(old == 500) then self.BuffSupCan5Check = true end
 
                 if (self.BuffSupCan1Check) then
                     for k,bType in buffSupCan1Types do
@@ -667,11 +667,11 @@ Unit = Class(oldUnit) {
                     end
                 end
 
-                if (old == 100) then self.BuffACUHealth1Check = true
-                if (old == 200) then self.BuffACUHealth2Check = true
-                if (old == 300) then self.BuffACUHealth3Check = true
-                if (old == 400) then self.BuffACUHealth4Check = true
-                if (old == 500) then self.BuffACUHealth5Check = true
+                if (old == 100) then self.BuffACUHealth1Check = true end
+                if (old == 200) then self.BuffACUHealth2Check = true end
+                if (old == 300) then self.BuffACUHealth3Check = true end
+                if (old == 400) then self.BuffACUHealth4Check = true end
+                if (old == 500) then self.BuffACUHealth5Check = true end
 
                 if (self.BuffACUHealth1Check) then
                     for k,bType in buffACUHealthTypes do
@@ -712,11 +712,11 @@ Unit = Class(oldUnit) {
                     Buff.ApplyBuff( self, 'Veterancy' .. bType)
                 end
 
-                if (old ==  75) then self.BuffRam1Check = true
-                if (old == 150) then self.BuffRam2Check = true
-                if (old == 225) then self.BuffRam3Check = true
-                if (old == 300) then self.BuffRam4Check = true
-                if (old == 375) then self.BuffRam1Check = true
+                if (old ==  75) then self.BuffRam1Check = true end
+                if (old == 150) then self.BuffRam2Check = true end
+                if (old == 225) then self.BuffRam3Check = true end
+                if (old == 300) then self.BuffRam4Check = true end
+                if (old == 375) then self.BuffRam1Check = true end
 
                 if (self.BuffRam1Check) then
                     for k,bType in buffRam1Types do
@@ -757,9 +757,9 @@ Unit = Class(oldUnit) {
                     Buff.ApplyBuff( self, 'Veterancy' .. bType)
                 end
 
-                if (old == 100) then self.BuffME1Check = true
-                if (old == 175) then self.BuffME2Check = true
-                if (old == 250) then self.BuffME3Check = true
+                if (old == 100) then self.BuffME1Check = true end
+                if (old == 175) then self.BuffME2Check = true end
+                if (old == 250) then self.BuffME3Check = true end
                 
                 if (self.BuffME1Check) then
                     for k,bType in buffME1Types do
