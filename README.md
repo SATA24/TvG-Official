@@ -17,5 +17,10 @@
 
 [*]#Features/Bugfixes To-do List (Still need to do it, feel free to help make contribution!)
 
-- Add Storage Capacity Veterancy for Mass and Energy Storage that increases their capacity by 0.1% per level up.
+- [WIP] Add Storage Capacity Veterancy for Mass and Energy Storage that increases their capacity by 0.1% per level up.
 - Add Nuke Damage and Radius Veterancy to increase the nuclear missile destructive power per level up.
+
+[*]TvG Official v1.55 upcoming changes
+
+- Storage Capacity Veterancy
+- Nuke Damage and Radius Veterancy
