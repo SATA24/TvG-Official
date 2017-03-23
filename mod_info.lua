@@ -1,6 +1,6 @@
-name = "TvG Official v1.6"
-uid = "7z441ch2-9d1d-15oc-9327-3928320c9d13"
-version = 1.6
+name = "TvG Official v1.61"
+uid = "7z441ch2-9d1d-15oc-9327-3928320c9d14"
+version = 1.61
 copyright = "-"
 description = "Everything levels up on kills, upgrades, assisting even idle. Original TvG by Eni. Balanced and Revamped by Stormrideron. Performance tweaks by SATA24"
 author = "Stormrideron and SATA24. Special Thanks: Eni, Ghaleon and Lewantics."

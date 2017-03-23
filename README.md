@@ -13,6 +13,9 @@ Version 1.6 Changelist
 - Balance tweaks
 - Leveling pace slowed slightly overall.
 
+Version 1.61 Changelist
+- Splash Radius Veterancy reduced from 2.5% to 0.25% per level up.
+
 [*]#Features/Bugfixes To-do List (Still need to do it, feel free to help make contribution!)
 
 - Add Storage Capacity Veterancy for Mass and Energy Storage that increases their capacity by 0.1% per level up.

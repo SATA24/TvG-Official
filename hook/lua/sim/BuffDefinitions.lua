@@ -182,7 +182,7 @@ BuffBlueprint {
     Affects = {
         DamageRadius = {
             Add = 0,
-            Mult = 1.025,--was 1.015
+            Mult = 1.0025,--was 1.015
         },
     },
 }
