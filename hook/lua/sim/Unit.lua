@@ -208,7 +208,7 @@ Unit = Class(oldUnit) {
         -- Apply default veterancy buffs
         local buffTypes = { 'Regen', 'Health', 'Damage','DamageArea','Range','Speed','Vision','OmniRadius','Radar','BuildRate','RateOfFire','Shield'}
         local buffACUTypes = {'COMRange','ACUHealth','ACUResourceProduction','ACURateOfFire','COMShield'}
-        local buffSCUTypes = {'COMShield'}
+        local buffSCUTypes = {'COMShield','ACUResourceProduction'}
         local buffSTRUCTURETypes = {'ResourceProduction'}
         local buffSHIELDTypes = {'EnergyCon'}
 --[[        local buffENERGYSTORAGETypes = {'StorageEnergy'}--SATA24
