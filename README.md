@@ -8,12 +8,17 @@ Version 1.56 Changelist
 - Another performance tweak to increase the waittime between experience gain. 
 - Performance tweak, once unit hit level 100 the buffs stop checking for that unit.
 
+Version 1.6 Changelist
+
+- Balance tweaks
+- Leveling pace slowed slightly overall.
+
 [*]#Features/Bugfixes To-do List (Still need to do it, feel free to help make contribution!)
 
 - Add Storage Capacity Veterancy for Mass and Energy Storage that increases their capacity by 0.1% per level up.
 - Add Nuke Damage and Radius Veterancy to increase the nuclear missile destructive power per level up.
 
-[*]TvG Official v1.57 upcoming change
+[*]TvG Official v1.61 upcoming change
 
 - Nuke Damage and Radius Veterancy
 - Storage Capacity Veterancy

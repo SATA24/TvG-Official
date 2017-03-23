@@ -747,7 +747,7 @@ Unit = Class(oldUnit) {
             --    local preAdjHealth = self:GetHealth()
                 if amount>=self:GetHealth() then
                 	--if self:IsDead() then
-                   		instigator:AddXP(bp.Economy.xpPerHp*vLevel*4.5 + vLevel/iLevel* 13.5 * bp.Economy.xpValue + vLevel)
+                   		instigator:AddXP(bp.Economy.xpPerHp*vLevel*5.5 + vLevel/iLevel* 16.5 * bp.Economy.xpValue + vLevel)
 
                    	--	end
                   -- self.XpModfierCombat = self.XpModfierOutOfCombat;
