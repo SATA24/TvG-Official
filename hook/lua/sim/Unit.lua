@@ -25,10 +25,10 @@ Unit = Class(oldUnit) {
             self.XpModfierInCombat = 3
             self.XpModfierOutOfCombat = 1
             self.XpModfierCombat = 1
-            self.XpModfier = 0.25
-            self.XpModfierBuffed = 0.5
-            self.XpModfierOld = 0.25
-            self.Waittime = bp.Economy.xpTimeStep * 0.002
+            self.XpModfier = 0.025
+            self.XpModfierBuffed = 0.05
+            self.XpModfierOld = 0.025
+            self.Waittime = bp.Economy.xpTimeStep * 0.004
             self.VeteranLevel = 1
             self.LevelProgress = 1
             self.Sync.LevelProgress = self.LevelProgress
@@ -72,11 +72,11 @@ Unit = Class(oldUnit) {
     startBuildXPThread = function(self)
         local levelPerSecond = self:GetBlueprint().Economy.BuildXPLevelpSecond
         if not levelPerSecond then return end
-        WaitSeconds(1)--when you build THAT fast you do not need any xp, another performance tweak
+        WaitSeconds(2)--when you build THAT fast you do not need any xp, another performance tweak
         while not self:IsDead() do
             self.XpModfier = self.XpModfierBuffed
             self:AddXP(self.XPnextLevel/(1 + self.VeteranLevel*0.3) + 3 ) --adjusted again, removed ceil, performance
-            WaitSeconds(59) -- to reduce the performance impact
+            WaitSeconds(60) -- to reduce the performance impact
         end
     end,
 
@@ -287,42 +287,42 @@ Unit = Class(oldUnit) {
         end
 
         --Check for buffs applied on levels of multiples of 50, up to level 400
-        if (old == 50) then
+        if (old == 5) then
             self.Buff50Check = true
         else
             self.Buff50Check = false
         end
-        if (old == 100) then
+        if (old == 10) then
             self.Buff100Check = true
         else
             self.Buff100Check = false
         end
-        if (old == 150) then
+        if (old == 15) then
             self.Buff150Check = true
         else
             self.Buff150Check = false
         end
-        if (old == 200) then
+        if (old == 20) then
             self.Buff200Check = true
         else
             self.Buff200Check = false
         end
-        if (old == 250) then
+        if (old == 25) then
             self.Buff250Check = true
         else
             self.Buff250Check = false
         end
-        if (old == 300) then
+        if (old == 30) then
             self.Buff300Check = true
         else
             self.Buff300Check = false
         end
-        if (old == 350) then
+        if (old == 35) then
             self.Buff350Check = true
         else
             self.Buff350Check = false
         end
-        if (old == 400) then
+        if (old == 40) then
             self.Buff400Check = true
         else
             self.Buff400Check = false
@@ -348,13 +348,6 @@ Unit = Class(oldUnit) {
         
         if (self.Buff200Check) then
             for k,bType in buff200Types do
-                local shield = self:GetShield()
-                if not shield then 
-                    --self:AddToggleCap('RULEUTC_ShieldToggle')
-                    self:CreateShield(bpA)
-                    --self:SetEnergyMaintenanceConsumptionOverride(bpA.MaintenanceConsumptionPerSecondEnergy or 0)
-                    --self:SetMaintenanceConsumptionActive()
-                end
                 Buff.ApplyBuff( self, 'Veterancy' .. bType)
             end
         end
@@ -393,27 +386,27 @@ Unit = Class(oldUnit) {
                     Buff.ApplyBuff( self, 'Veterancy' .. bType)
                 end
 
-                if(old == 100) then
+                if(old == 10) then
                     self.BuffSupCan1Check = true
                 else
                     self.BuffSupCan1Check = false
                 end
-                if(old == 200) then 
+                if(old == 20) then 
                     self.BuffSupCan2Check = true
                 else
                     self.BuffSupCan2Check = false
                 end
-                if(old == 300) then
+                if(old == 30) then
                     self.BuffSupCan3Check = true
                 else
                     self.BuffSupCan3Check = false
                 end
-                if(old == 400) then
+                if(old == 40) then
                     self.BuffSupCan4Check = true
                 else
                     self.BuffSupCan4Check = false
                 end
-                if (old == 500) then
+                if (old == 50) then
                     self.BuffSupCan5Check = true
                 else
                     self.BuffSupCan5Check = false
@@ -449,27 +442,27 @@ Unit = Class(oldUnit) {
                     end
                 end
 
-                if (old == 100) then
+                if (old == 10) then
                     self.BuffACUHealth1Check = true
                 else
                     self.BuffACUHealth1Check = false
                 end
-                if (old == 200) then
+                if (old == 20) then
                     self.BuffACUHealth2Check = true
                 else
                     self.BuffACUHealth2Check = false
                 end
-                if (old == 300) then
+                if (old == 30) then
                     self.BuffACUHealth3Check = true
                 else
                     self.BuffACUHealth3Check = false
                 end
-                if (old == 400) then
+                if (old == 40) then
                     self.BuffACUHealth4Check = true
                 else
                     self.BuffACUHealth4Check = false
                 end
-                if (old == 500) then
+                if (old == 50) then
                     self.BuffACUHealth5Check = true
                 else
                     self.BuffACUHealth5Check = false
@@ -514,27 +507,27 @@ Unit = Class(oldUnit) {
                     Buff.ApplyBuff( self, 'Veterancy' .. bType)
                 end
 
-                if (old ==  75) then
+                if (old ==  7) then
                     self.BuffRam1Check = true
                 else
                     self.BuffRam1Check = false
                 end
-                if (old == 150) then
+                if (old == 14) then
                     self.BuffRam2Check = true
                 else
                     self.BuffRam2Check = false
                 end
-                if (old == 225) then
+                if (old == 21) then
                     self.BuffRam3Check = true
                 else
                     self.BuffRam3Check = false
                 end
-                if (old == 300) then
+                if (old == 28) then
                     self.BuffRam4Check = true
                 else
                     self.BuffRam4Check = false
                 end
-                if (old == 375) then
+                if (old == 35) then
                     self.BuffRam5Check = true
                 else
                     self.BuffRam5Check = false
@@ -579,17 +572,17 @@ Unit = Class(oldUnit) {
                     Buff.ApplyBuff( self, 'Veterancy' .. bType)
                 end
 
-                if (old == 100) then
+                if (old == 10) then
                     self.BuffME1Check = true
                 else
                     self.BuffME1Check = false
                 end
-                if (old == 175) then
+                if (old == 20) then
                     self.BuffME2Check = true
                 else
                     self.BuffME2Check = false
                 end
-                if (old == 250) then
+                if (old == 30) then
                     self.BuffME3Check = true
                 else
                     self.BuffME3Check = false
@@ -673,7 +666,7 @@ Unit = Class(oldUnit) {
         -- Generate a buff based on the unitId
         local buffName = self:GetUnitId() .. levelName .. buffType
         local buffMinLevel = nil
-        local buffMaxLevel = nil
+        local buffMaxLevel = 100
         if buffValues.MinLevel then buffMinLevel = buffValues.MinLevel end
         if buffValues.MaxLevel then buffMaxLevel = buffValues.MaxLevel end
 

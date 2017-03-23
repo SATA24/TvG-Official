@@ -16,6 +16,7 @@ import('/lua/sim/CheatBuffs.lua') -- Buffs for AI Cheating
 ------------------------------------------------------------------------------------------------------------------------------------
 
 BuffBlueprint {
+    MaxLevel = 100, 
     Name = 'VeterancyStorageEnergy',
     DisplayName = 'VeterancyStorageEnergy',
     BuffType = 'VETERANCYSTORAGEENERGY',
@@ -34,6 +35,7 @@ BuffBlueprint {
 ------------------------------------------------------------------------------------------------------------------------------------
 
 BuffBlueprint {
+    MaxLevel = 100, 
     Name = 'VeterancyStorageMass',
     DisplayName = 'VeterancyStorageMass',
     BuffType = 'VETERANCYSTORAGEMASS',
@@ -52,6 +54,7 @@ BuffBlueprint {
 ------------------------------------------------------------------------------------------------------------------------------------
 
 BuffBlueprint {
+    MaxLevel = 100, 
     Name = 'VeterancyHealth',
     DisplayName = 'VeterancyHealth',
     BuffType = 'VETERANCYHEALTH',
@@ -60,7 +63,7 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.005,--was 1.12
+            Mult = 1.05,--was 1.12
         },
     },
 }
@@ -70,6 +73,7 @@ BuffBlueprint {
 ------------------------------------------------------------------------------------------------------------------------------------
 
 BuffBlueprint {
+    MaxLevel = 100, 
     Name = 'VeterancyACUHealth',
     DisplayName = 'VeterancyACUHealth',
     BuffType = 'VeterancyACUHealth',
@@ -78,7 +82,7 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.0025,--was 1.12
+            Mult = 1.025,--was 1.12
         },
     },
 }
@@ -88,6 +92,7 @@ BuffBlueprint {
 ------------------------------------------------------------------------------------------------------------------------------------
 
 BuffBlueprint {
+    MaxLevel = 100, 
     Name = 'VeterancyRegen',
     DisplayName = 'VeterancyRegen',
     BuffType = 'VETERANCYREGEN',
@@ -96,7 +101,7 @@ BuffBlueprint {
     Affects = {
         Regen = {
             Add = 0,
-            Mult = 1.0045,--was 1.08
+            Mult = 1.045,--was 1.08
         },
     },
 }
@@ -128,6 +133,7 @@ BuffBlueprint {
 ------------------------------------------------------------------------------------------------------------------------------------
 
 BuffBlueprint {
+    MaxLevel = 100, 
     Name = 'VeterancyDamage',
     DisplayName = 'VeterancyDamage',
     BuffType = 'VETERANCYDAMAGE',
@@ -136,7 +142,7 @@ BuffBlueprint {
     Affects = {
         Damage = {
             Add = 0,
-            Mult = 1.0085,--was 1.1
+            Mult = 1.085,--was 1.1
         },
     },
 }
@@ -176,7 +182,7 @@ BuffBlueprint {
     Affects = {
         DamageRadius = {
             Add = 0,
-            Mult = 1.0025,--was 1.015
+            Mult = 1.025,--was 1.015
         },
     },
 }
@@ -186,6 +192,7 @@ BuffBlueprint {
 ------------------------------------------------------------------------------------------------------------------------------------
 
 BuffBlueprint {
+    MaxLevel = 100, 
     Name = 'VeterancyRange',
     DisplayName = 'VeterancyRange',
     BuffType = 'VETERANCYRANGE',
@@ -194,7 +201,7 @@ BuffBlueprint {
     Affects = {
         MaxRadius = {
             Add = 0,
-            Mult = 1.00075,--was 1.01
+            Mult = 1.0075,--was 1.01
         },
     },
 }
@@ -204,6 +211,7 @@ BuffBlueprint {
 ------------------------------------------------------------------------------------------------------------------------------------
 
 BuffBlueprint {
+    MaxLevel = 100, 
     Name = 'VeterancyCOMRange',
     DisplayName = 'VeterancyCOMRange',
     BuffType = 'VeterancyCOMRange',
@@ -212,7 +220,7 @@ BuffBlueprint {
     Affects = {
         MaxRadius = {
             Add = 0,
-            Mult = 1.00025,--was 1.01
+            Mult = 1.0025,--was 1.01
         },
     },
 }
@@ -259,6 +267,7 @@ BuffBlueprint {
 ------------------------------------------------------------------------------------------------------------------------------------
 
 BuffBlueprint {
+    MaxLevel = 100, 
     Name = 'VeterancyShield',
     DisplayName = 'VeterancyShield',
     BuffType = 'VETERANCYSHIELD',
@@ -267,11 +276,11 @@ BuffBlueprint {
     Affects = {
         ShieldHP = {
             Add = 0,
-            Mult = 1.005, -- was 1.05
+            Mult = 1.05, -- was 1.05
         },
         ShieldRegen = {
             Add = 0,
-            Mult = 1.0025, -- was 1.05
+            Mult = 1.025, -- was 1.05
         },
     },
 }
@@ -281,6 +290,7 @@ BuffBlueprint {
 ------------------------------------------------------------------------------------------------------------------------------------
 
 BuffBlueprint {
+    MaxLevel = 100, 
     Name = 'VeterancyCOMShield',
     DisplayName = 'VeterancyCOMShield',
     BuffType = 'VeterancyCOMShield',
@@ -289,11 +299,11 @@ BuffBlueprint {
     Affects = {
         ShieldHP = {
             Add = 0,
-            Mult = 1.005, -- was 1.05
+            Mult = 1.05, -- was 1.05
         },
         ShieldRegen = {
             Add = 0,
-            Mult = 1.0025, -- was 1.05
+            Mult = 1.025, -- was 1.05
         },
     },
 }
@@ -360,6 +370,7 @@ BuffBlueprint {
 ------------------------------------------------------------------------------------------------------------------------------------
 
 BuffBlueprint {
+    MaxLevel = 100, 
     Name = 'VeterancyBuildRate',
     DisplayName = 'VeterancyBuildRate',
     BuffType = 'VETERANCYBUILDRATE',
@@ -368,7 +379,7 @@ BuffBlueprint {
     Affects = {
         BuildRate = {
             Add = 0,
-            Mult = 1.00125, -- was 1.015
+            Mult = 1.0125, -- was 1.015
         },
     },
 }
@@ -378,6 +389,7 @@ BuffBlueprint {
 ------------------------------------------------------------------------------------------------------------------------------------
 
 BuffBlueprint {
+    MaxLevel = 100, 
     Name = 'VeterancyEnergyCon',
     DisplayName = 'VeterancyEnergyCon',
     BuffType = 'VeterancyEnergyCon',
@@ -385,8 +397,8 @@ BuffBlueprint {
     Duration = -1,
     Affects = {
         EnergyMaintenance = {
-            Add = 0.0025,
-            Mult = 1.00125,
+            Add = 0.025,
+            Mult = 1.0125,
         },
     },
 }
@@ -396,6 +408,7 @@ BuffBlueprint {
 ------------------------------------------------------------------------------------------------------------------------------------
 
 BuffBlueprint {
+    MaxLevel = 100, 
     Name = 'VeterancyCEC',
     DisplayName = 'VeterancyCEC',
     BuffType = 'VeterancyCEC',
@@ -403,8 +416,8 @@ BuffBlueprint {
     Duration = -1,
     Affects = {
         EnergyMaintenance = {
-            Add = 0.001,
-            Mult = 1.001,
+            Add = 0.01,
+            Mult = 1.01,
         },
     },
 }
@@ -414,6 +427,7 @@ BuffBlueprint {
 ------------------------------------------------------------------------------------------------------------------------------------
 
 BuffBlueprint {
+    MaxLevel = 100, 
     Name = 'VeterancyResourceProduction',
     DisplayName = 'VeterancyResourceProduction',
     BuffType = 'VeterancyResourceProduction',
@@ -422,11 +436,11 @@ BuffBlueprint {
     Affects = {
         EnergyProductionBuf = {
             Add = 0,
-            Mult = 1.0055,
+            Mult = 1.055,
         },
         MassProductionBuf = {
             Add = 0,
-            Mult = 1.00275,
+            Mult = 1.0275,
         },
     },
 }
@@ -436,7 +450,7 @@ BuffBlueprint {
 ------------------------------------------------------------------------------------------------------------------------------------
 
 BuffBlueprint {
-    MaxLevel = 1000,
+    MaxLevel = 100,
 	Name = 'VeterancyACUResourceProduction',
 	DisplayName = 'VeterancyACUResourceProduction',
 	BuffType = 'VeterancyACUResourceProduction',
@@ -444,12 +458,12 @@ BuffBlueprint {
 	Duration = -1,
 	Affects = {
 	EnergyProductionBuf = {
-	        Add = 1.39375,
-			Mult = 1.0066,
+	        Add = 3.9375,
+			Mult = 1.132,
         },
 	    MassProductionBuf = {
-            Add = 0.021875,
-			Mult = 1.0045,
+            Add = 0.21875,
+			Mult = 1.09,
         },
 	},
 }
@@ -459,6 +473,7 @@ BuffBlueprint {
 ------------------------------------------------------------------------------------------------------------------------------------
 
 BuffBlueprint {
+    MaxLevel = 100, 
     Name = 'VeterancyACURateOfFire',
     DisplayName = 'VeterancyACURateOfFire',
     BuffType = 'VeterancyACURateOfFire',
@@ -467,7 +482,7 @@ BuffBlueprint {
     Affects = {
         RateOfFireBuf = {
             Add = 0,
-            Mult = 1.0005,
+            Mult = 1.005,
         },
     },
 }
@@ -477,6 +492,7 @@ BuffBlueprint {
 ------------------------------------------------------------------------------------------------------------------------------------
 
 BuffBlueprint {
+    MaxLevel = 100, 
     Name = 'VeterancyRateOfFire',
     DisplayName = 'VeterancyRateOfFire',
     BuffType = 'VETERANCYRATEOFFIRE',
@@ -485,7 +501,7 @@ BuffBlueprint {
     Affects = {
         RateOfFireBuf = {
             Add = 0,
-            Mult = 1.002,
+            Mult = 1.02,
         },
     },
 }
@@ -499,37 +515,6 @@ BuffBlueprint {
     Name = 'VeterancyPerkHardened',
     DisplayName = 'VeterancyPerkHardened',
     BuffType = 'VeterancyPerkHardened',
-    Stacks = 'ALWAYS',
-    Duration = -1,
-    Affects = {
-        MaxHealth = {
-            Add = 0,
-            Mult = 1.3,
-        },
-	RateOfFireBuf = {
-            Add = 0,
-            Mult = 1.3,
-        },
-        Damage = {
-            Add = 0,
-            Mult = 1.3,
-        },
-	MoveMult = {
-            Add = 0,
-            Mult = 1.3, --was 1.01
-        },
-        Regen = {
-            Add = 0,
-            Mult = 1.3,--was 1.08
-        },
-    },
-}
-
--- Perk Veteran
-BuffBlueprint {
-    Name = 'VeterancyPerkVeteran',
-    DisplayName = 'VeterancyPerkVeteran',
-    BuffType = 'VeterancyPerkVeteran',
     Stacks = 'ALWAYS',
     Duration = -1,
     Affects = {
@@ -556,6 +541,37 @@ BuffBlueprint {
     },
 }
 
+-- Perk Veteran
+BuffBlueprint {
+    Name = 'VeterancyPerkVeteran',
+    DisplayName = 'VeterancyPerkVeteran',
+    BuffType = 'VeterancyPerkVeteran',
+    Stacks = 'ALWAYS',
+    Duration = -1,
+    Affects = {
+        MaxHealth = {
+            Add = 0,
+            Mult = 1.7,
+        },
+	RateOfFireBuf = {
+            Add = 0,
+            Mult = 1.7,
+        },
+        Damage = {
+            Add = 0,
+            Mult = 1.7,
+        },
+	MoveMult = {
+            Add = 0,
+            Mult = 1.7, --was 1.01
+        },
+        Regen = {
+            Add = 0,
+            Mult = 1.7,--was 1.08
+        },
+    },
+}
+
 -- Perk Elite
 BuffBlueprint {
     Name = 'VeterancyPerkElite',
@@ -566,23 +582,23 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.6,
+            Mult = 2,
         },
 	RateOfFireBuf = {
             Add = 0,
-            Mult = 1.6,
+            Mult = 2,
         },
         Damage = {
             Add = 0,
-            Mult = 1.6,
+            Mult = 2,
         },
 	MoveMult = {
             Add = 0,
-            Mult = 1.6, --was 1.01
+            Mult = 2, --was 1.01
         },
         Regen = {
             Add = 0,
-            Mult = 1.6,--was 1.08
+            Mult = 2,--was 1.08
         },
     },
 }
@@ -597,15 +613,15 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.1,
+            Mult = 1.15,
         },
 	RateOfFireBuf = {
             Add = 0,
-            Mult = 1.1,
+            Mult = 1.15,
         },
         Damage = {
             Add = 0,
-            Mult = 1.1,
+            Mult = 1.15,
         },
     },
 }
@@ -620,15 +636,15 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.125,
+            Mult = 1.225,
         },
 	RateOfFireBuf = {
             Add = 0,
-            Mult = 1.125,
+            Mult = 1.225,
         },
         Damage = {
             Add = 0,
-            Mult = 1.125,
+            Mult = 1.225,
         },
     },
 }
@@ -643,15 +659,15 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.15,
+            Mult = 1.3,
         },
 	RateOfFireBuf = {
             Add = 0,
-            Mult = 1.15,
+            Mult = 1.3,
         },
         Damage = {
             Add = 0,
-            Mult = 1.15,
+            Mult = 1.3,
         },
     },
 }
@@ -666,15 +682,15 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.175,
+            Mult = 1.375,
         },
 	RateOfFireBuf = {
             Add = 0,
-            Mult = 1.175,
+            Mult = 1.375,
         },
         Damage = {
             Add = 0,
-            Mult = 1.175,
+            Mult = 1.375,
         },
     },
 }
@@ -689,15 +705,15 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.2,
+            Mult = 1.45,
         },
 	RateOfFireBuf = {
             Add = 0,
-            Mult = 1.2,
+            Mult = 1.45,
         },
         Damage = {
             Add = 0,
-            Mult = 1.2,
+            Mult = 1.45,
         },
     },
 }
@@ -892,11 +908,11 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.50,
+            Mult = 1.75,
         },
 	Regen = {
             Add = 0,
-            Mult = 1.10,
+            Mult = 1.15,
         },
     },
 }
@@ -911,7 +927,7 @@ BuffBlueprint {
     Affects = {
         Damage = {
             Add = 0,
-            Mult = 1.165,
+            Mult = 1.2,
         },
 		DamageRadius = {
             Add = 0,
@@ -930,11 +946,11 @@ BuffBlueprint {
     Affects = {
         Damage = {
             Add = 0,
-            Mult = 1.198,
+            Mult = 1.275,
         },
 		DamageRadius = {
             Add = 0,
-            Mult = 1.033,--was 1.015
+            Mult = 1.035,--was 1.015
         },
     },
 }
@@ -949,11 +965,11 @@ BuffBlueprint {
     Affects = {
         Damage = {
             Add = 0,
-            Mult = 1.231,
+            Mult = 1.35,
         },
 		DamageRadius = {
             Add = 0,
-            Mult = 1.0385,--was 1.015
+            Mult = 1.0425,--was 1.015
         },
     },
 }
@@ -968,11 +984,11 @@ BuffBlueprint {
     Affects = {
         Damage = {
             Add = 0,
-            Mult = 1.264,
+            Mult = 1.425,
         },
 		DamageRadius = {
             Add = 0,
-            Mult = 1.044,--was 1.015
+            Mult = 1.05,--was 1.015
         },
     },
 }
@@ -987,11 +1003,11 @@ BuffBlueprint {
     Affects = {
         Damage = {
             Add = 0,
-            Mult = 1.297,
+            Mult = 1.5,
         },
 		DamageRadius = {
             Add = 0,
-            Mult = 1.0495,--was 1.015
+            Mult = 1.0525,--was 1.015
         },
     },
 }
