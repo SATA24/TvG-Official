@@ -29,3 +29,4 @@ Version 1.40 Changelist
 - ACU Resource Production reduced by 75% to compensate for working RAS Bonus.
 - Energy Consumption Veterancy reduced from 1% to 0.25% and multipler from 0.5% to 0.125%
 - ACU Energy Consumption Veterancy removed and ACU/SCUs no longer have energy consumption veterancy.
+- Huge performance tweaks, code has been refactored to improve the script effectiveness.

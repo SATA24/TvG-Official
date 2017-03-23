@@ -211,8 +211,9 @@ Unit = Class(oldUnit) {
         local buffSCUTypes = {'COMShield'}
         local buffSTRUCTURETypes = {'ResourceProduction'}
         local buffSHIELDTypes = {'EnergyCon'}
-        local buffENERGYSTORAGETypes = {'StorageEnergy'}--SATA24
+--[[        local buffENERGYSTORAGETypes = {'StorageEnergy'}--SATA24
         local buffMASSSTORAGETypes = {'StorageMass'}    --SATA24
+--]]
 
         local buff50Types = {'PerkHealth'}
         local buff100Types = {'PerkROF'}
@@ -623,7 +624,7 @@ Unit = Class(oldUnit) {
             end
         --End check for "SHIELD" units
 
-        --Check for buffs specific to "MASSSTORAGE" units (ie. T1 Mass Storage) --SATA24
+ --[[       --Check for buffs specific to "MASSSTORAGE" units (ie. T1 Mass Storage) --SATA24
             if table.find(bpA.Categories,'MASSSTORAGE') then
 
                 for k,bType in buffMASSSTORAGETypes do
@@ -640,6 +641,7 @@ Unit = Class(oldUnit) {
                 end
             end
         --End check for "ENERGYSTORAGE" units --SATA24
+--]]
 
         end
         --End buff check (Code refactoring above by SATA24)--
