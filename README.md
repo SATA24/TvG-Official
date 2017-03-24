@@ -1,3 +1,4 @@
+
 # TvG-Official
 
 Version 1.56 Changelist
@@ -40,6 +41,8 @@ Version 1.64 Changelist
 - ACU Shield Health Veterancy decreased from 9% to 4.5% (Still 18% for ACU)
 - ACU Shield Regeneration Veterancy decreased from 4.5% to 2.25% (Still 9% for ACU)
 - Supercharged Cannon Perks damage increased by 12.5% overall.
+- Resource Production reduced by 50%
+- Shield Generator levels up 11.11% faster now.
 
 [*]#Features/Bugfixes To-do List (Still need to do it, feel free to help make contribution!)
 
