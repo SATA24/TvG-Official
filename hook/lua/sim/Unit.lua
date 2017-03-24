@@ -25,9 +25,9 @@ Unit = Class(oldUnit) {
             self.XpModfierInCombat = 3
             self.XpModfierOutOfCombat = 1
             self.XpModfierCombat = 1
-            self.XpModfier = 0.02
-            self.XpModfierBuffed = 0.05
-            self.XpModfierOld = 0.02
+            self.XpModfier = 0.01
+            self.XpModfierBuffed = 0.02
+            self.XpModfierOld = 0.01
             self.Waittime = bp.Economy.xpTimeStep * 0.004
             self.VeteranLevel = 1
             self.LevelProgress = 1
@@ -747,7 +747,7 @@ Unit = Class(oldUnit) {
             --    local preAdjHealth = self:GetHealth()
                 if amount>=self:GetHealth() then
                 	--if self:IsDead() then
-                   		instigator:AddXP(bp.Economy.xpPerHp*vLevel*7.5 + vLevel/iLevel* 22.5 * bp.Economy.xpValue + vLevel)
+                   		instigator:AddXP(bp.Economy.xpPerHp*vLevel*3 + vLevel/iLevel* 9 * bp.Economy.xpValue + vLevel)
 
                    	--	end
                   -- self.XpModfierCombat = self.XpModfierOutOfCombat;

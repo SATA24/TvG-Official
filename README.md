@@ -25,6 +25,14 @@ Version 1.62 Changelist
 - Increase Unit and ACU Shield Health Veterancy from 5% to 7.5% per level up. (15% for ACU)
 - Increase Unit and ACU Shield Regeneration Veterancy from 2.5% to 3.75% per level up (7.5% for ACU)
 
+Version 1.63 Changelist
+
+- Increase Unit Health Veterancy from 7.25% to 9%
+- Increase ACU Health Veterancy from 4% to 6% (Total 15% per level up)
+- Increase Unit and ACU Shield Health Veterancy from 7.5% to 9% per level up. (18% for ACU)
+- Increase Unit and ACU Shield Regeneration Veterancy from 3.75% to 4.5% per level up (9% for ACU)
+- Veterancy Rate reduced by 50%
+
 [*]#Features/Bugfixes To-do List (Still need to do it, feel free to help make contribution!)
 
 - Add Storage Capacity Veterancy for Mass and Energy Storage that increases their capacity by 0.1% per level up.

@@ -63,7 +63,7 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.0725,--was 1.12
+            Mult = 1.09,--was 1.12
         },
     },
 }
@@ -82,7 +82,7 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.04,--was 1.12
+            Mult = 1.06,--was 1.12
         },
     },
 }
@@ -101,7 +101,7 @@ BuffBlueprint {
     Affects = {
         Regen = {
             Add = 0,
-            Mult = 1.05,--was 1.08
+            Mult = 1.0625,--was 1.08
         },
     },
 }
@@ -255,11 +255,11 @@ BuffBlueprint {
     Affects = {
         ShieldHP = {
             Add = 0,
-            Mult = 1.075, -- was 1.05
+            Mult = 1.09, -- was 1.05
         },
         ShieldRegen = {
             Add = 0,
-            Mult = 1.0375, -- was 1.05
+            Mult = 1.045, -- was 1.05
         },
     },
 }
@@ -278,11 +278,11 @@ BuffBlueprint {
     Affects = {
         ShieldHP = {
             Add = 0,
-            Mult = 1.075, -- was 1.05
+            Mult = 1.09, -- was 1.05
         },
         ShieldRegen = {
             Add = 0,
-            Mult = 1.0375, -- was 1.05
+            Mult = 1.045, -- was 1.05
         },
     },
 }
