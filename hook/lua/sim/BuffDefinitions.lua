@@ -63,7 +63,7 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.05,--was 1.12
+            Mult = 1.0725,--was 1.12
         },
     },
 }
@@ -82,7 +82,7 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.025,--was 1.12
+            Mult = 1.04,--was 1.12
         },
     },
 }
@@ -101,7 +101,7 @@ BuffBlueprint {
     Affects = {
         Regen = {
             Add = 0,
-            Mult = 1.045,--was 1.08
+            Mult = 1.05,--was 1.08
         },
     },
 }
@@ -146,27 +146,6 @@ BuffBlueprint {
         },
     },
 }
-
-------------------------------------------------------------------------------------------------------------------------------------
----- VETERANCY BUFFS - COMMANDER OVERCHARGE
-------------------------------------------------------------------------------------------------------------------------------------
-
---BuffBlueprint {
-   -- Name = 'VeterancyOverCharge',
-    --DisplayName = 'VeterancyOverCharge',
-   -- BuffType = 'VeterancyOverCharge',
-   -- Stacks = 'ALWAYS',
-    --Duration = -1,
-  --  Affects = {
-     --   Damage = {
-    --        Add = 0,
-     --       Mult = 1.0125,--was 1.1
-	--		ByName = {
-	--			OverCharge = true,
-		--	},
-     --   },
- --   },
--- }
 
 ------------------------------------------------------------------------------------------------------------------------------------
 ---- VETERANCY BUFFS - UNIT DAMAGE AOE
@@ -276,11 +255,11 @@ BuffBlueprint {
     Affects = {
         ShieldHP = {
             Add = 0,
-            Mult = 1.05, -- was 1.05
+            Mult = 1.075, -- was 1.05
         },
         ShieldRegen = {
             Add = 0,
-            Mult = 1.025, -- was 1.05
+            Mult = 1.0375, -- was 1.05
         },
     },
 }
@@ -299,11 +278,11 @@ BuffBlueprint {
     Affects = {
         ShieldHP = {
             Add = 0,
-            Mult = 1.05, -- was 1.05
+            Mult = 1.075, -- was 1.05
         },
         ShieldRegen = {
             Add = 0,
-            Mult = 1.025, -- was 1.05
+            Mult = 1.0375, -- was 1.05
         },
     },
 }
@@ -908,11 +887,11 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.60,
+            Mult = 1.75,
         },
 	Regen = {
             Add = 0,
-            Mult = 1.125,
+            Mult = 1.15,
         },
     },
 }

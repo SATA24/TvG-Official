@@ -16,6 +16,15 @@ Version 1.6 Changelist
 Version 1.61 Changelist
 - Splash Radius Veterancy reduced from 2.5% to 0.25% per level up.
 
+Version 1.62 Changelist
+
+- Increase Unit Health Veterancy from 5% to 7.25%
+- Increase ACU Health Veterancy from 2.5% to 4% (Total 11.25% per level up)
+- Increase Health Boost Perk from 60% to 75% up to a maximum 375% health bonus.
+- Increase Health Boost Perk regeneration from 12.5% to 15% up to a maximium 75% regeneration bonus.
+- Increase Unit and ACU Shield Health Veterancy from 5% to 7.5% per level up. (15% for ACU)
+- Increase Unit and ACU Shield Regeneration Veterancy from 2.5% to 3.75% per level up (7.5% for ACU)
+
 [*]#Features/Bugfixes To-do List (Still need to do it, feel free to help make contribution!)
 
 - Add Storage Capacity Veterancy for Mass and Energy Storage that increases their capacity by 0.1% per level up.
