@@ -255,11 +255,11 @@ BuffBlueprint {
     Affects = {
         ShieldHP = {
             Add = 0,
-            Mult = 1.09, -- was 1.05
+            Mult = 1.135, -- was 1.05
         },
         ShieldRegen = {
             Add = 0,
-            Mult = 1.045, -- was 1.05
+            Mult = 1.0675, -- was 1.05
         },
     },
 }
@@ -278,11 +278,11 @@ BuffBlueprint {
     Affects = {
         ShieldHP = {
             Add = 0,
-            Mult = 1.09, -- was 1.05
+            Mult = 1.045, -- was 1.05
         },
         ShieldRegen = {
             Add = 0,
-            Mult = 1.045, -- was 1.05
+            Mult = 1.0225, -- was 1.05
         },
     },
 }
@@ -415,11 +415,11 @@ BuffBlueprint {
     Affects = {
         EnergyProductionBuf = {
             Add = 0,
-            Mult = 1.055,
+            Mult = 1.0275,
         },
         MassProductionBuf = {
             Add = 0,
-            Mult = 1.0275,
+            Mult = 1.01375,
         },
     },
 }
@@ -906,7 +906,7 @@ BuffBlueprint {
     Affects = {
         Damage = {
             Add = 0,
-            Mult = 1.2,
+            Mult = 1.25,
         },
 		DamageRadius = {
             Add = 0,
@@ -925,7 +925,7 @@ BuffBlueprint {
     Affects = {
         Damage = {
             Add = 0,
-            Mult = 1.275,
+            Mult = 1.375,
         },
 		DamageRadius = {
             Add = 0,
@@ -944,7 +944,7 @@ BuffBlueprint {
     Affects = {
         Damage = {
             Add = 0,
-            Mult = 1.35,
+            Mult = 1.5,
         },
 		DamageRadius = {
             Add = 0,
@@ -963,7 +963,7 @@ BuffBlueprint {
     Affects = {
         Damage = {
             Add = 0,
-            Mult = 1.425,
+            Mult = 1.625,
         },
 		DamageRadius = {
             Add = 0,
@@ -982,7 +982,7 @@ BuffBlueprint {
     Affects = {
         Damage = {
             Add = 0,
-            Mult = 1.5,
+            Mult = 1.75,
         },
 		DamageRadius = {
             Add = 0,

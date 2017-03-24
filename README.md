@@ -33,12 +33,20 @@ Version 1.63 Changelist
 - Increase Unit and ACU Shield Regeneration Veterancy from 3.75% to 4.5% per level up (9% for ACU)
 - Veterancy Rate reduced by 50%
 
+Version 1.64 Changelist
+
+- Unit Shield Health Veterancy increased from 9% to 13.5%
+- Unit Shield Regeneration Veterancy increased from 4.5% to 6.75%
+- ACU Shield Health Veterancy decreased from 9% to 4.5% (Still 18% for ACU)
+- ACU Shield Regeneration Veterancy decreased from 4.5% to 2.25% (Still 9% for ACU)
+- Supercharged Cannon Perks damage increased by 12.5% overall.
+
 [*]#Features/Bugfixes To-do List (Still need to do it, feel free to help make contribution!)
 
 - Add Storage Capacity Veterancy for Mass and Energy Storage that increases their capacity by 0.1% per level up.
 - Add Nuke Damage and Radius Veterancy to increase the nuclear missile destructive power per level up.
 
-[*]TvG Official v1.61 upcoming change
+[*]TvG Official v1.65 upcoming change
 
 - Nuke Damage and Radius Veterancy
 - Storage Capacity Veterancy

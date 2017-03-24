@@ -125,12 +125,12 @@ do
 
             -- Intel gains xp
             if bp.Categories and table.find(bp.Categories,'INTELLIGENCE') and (table.find(bp.Categories,'STRUCTURE') or table.find(bp.Categories,'MOBILESONAR')) and not bp.Economy.xpTimeStep and not table.find(bp.Categories,'UNTARGETABLE') then
-                bp.Economy.xpTimeStep = 125
+                bp.Economy.xpTimeStep = 120
            end
 
             -- Immobile Shields gain xp
             if bp.Categories and table.find(bp.Categories,'STRUCTURE') and table.find(bp.Categories,'SHIELD') and not bp.Economy.xpTimeStep  and not table.find(bp.Categories,'UNTARGETABLE') then
-                bp.Economy.xpTimeStep = 150
+                bp.Economy.xpTimeStep = 135
             end
 
             -- All other structures T1
