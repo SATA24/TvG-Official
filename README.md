@@ -44,12 +44,25 @@ Version 1.64 Changelist
 - Resource Production reduced by 50%
 - Shield Generator levels up 11.11% faster now.
 
+Version 1.65 Changelist
+
+- ACU Shield Health and Regeneration Veterancy Removed.
+- Shield Health Veterancy increased from 13.5% to 18%
+- Shield Regeneration Veterancy increased from 6.75% to 9%
+- Hardened Perk decreased from 40% to 35%
+- Veteran Perk decreased from 65% to 50%
+- Elite Perk decreased from 90% to 75%
+- Health Boost Perk increased from 75% to 100%, up to a max 500% health bonus.
+- Health Boost Perk regeneration increased from 15% to 20%, up to a max 100% regeneration bonus.
+- Movement Speed increased from 0.25% to 1%
+- Damage Veterancy decreased from 8.5% to 8.25%
+
 [*]#Features/Bugfixes To-do List (Still need to do it, feel free to help make contribution!)
 
 - Add Storage Capacity Veterancy for Mass and Energy Storage that increases their capacity by 0.1% per level up.
 - Add Nuke Damage and Radius Veterancy to increase the nuclear missile destructive power per level up.
 
-[*]TvG Official v1.65 upcoming change
+[*]TvG Official v1.66 upcoming change
 
 - Nuke Damage and Radius Veterancy
 - Storage Capacity Veterancy
