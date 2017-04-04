@@ -968,4 +968,65 @@ BuffBlueprint {
     },
 }
 
+-- UEF Health Bonus
+
+BuffBlueprint {
+    MaxLevel = 100, 
+    Name = 'VeterancyUEF',
+    DisplayName = 'VeterancyUEF',
+    BuffType = 'VeterancyUEF',
+    Stacks = 'ALWAYS',
+    Duration = -1,
+    Affects = {
+        MaxHealth = {
+            Add = 0,
+            Mult = 1.025,--was 1.12
+        },
+    },
+}
+
+-- Cybran Damage Bonus
+BuffBlueprint {
+    Name = 'VeterancyCYBRAN',
+    DisplayName = 'VeterancyCYBRAN',
+    BuffType = 'VeterancyCYBRAN',
+    Stacks = 'ALWAYS',
+    Duration = -1,
+    Affects = {
+        Damage = {
+            Add = 0,
+            Mult = 1.025,
+        },
+    },
+}
+
+-- Aeon Range Bonus
+BuffBlueprint {
+    Name = 'VeterancyAEON',
+    DisplayName = 'VeterancyAEON',
+    BuffType = 'VeterancyAEON',
+    Stacks = 'ALWAYS',
+    Duration = -1,
+    Affects = {
+        MaxRadius = {
+            Add = 0,
+            Mult = 1.0025,
+        },
+    },
+}
+
+-- Seraphim Rate of Fire Bonus
+BuffBlueprint {
+    Name = 'VeterancySERAPHIM',
+    DisplayName = 'VeterancySERAPHIM',
+    BuffType = 'VeterancySERAPHIM',
+    Stacks = 'ALWAYS',
+    Duration = -1,
+    Affects = {
+        RateOfFireBuf = {
+            Add = 0,
+            Mult = 1.025,
+        },
+    },
+}
 __moduleinfo.auto_reload = true

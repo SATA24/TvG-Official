@@ -57,12 +57,20 @@ Version 1.65 Changelist
 - Movement Speed increased from 0.25% to 1%
 - Damage Veterancy decreased from 8.5% to 8.25%
 
+Version 1.66 Changelist
+
+- New: Faction Bonus
+- UEF gain 2.5% Health Bonus per level up.
+- Cybran gain 2.5% Damage Bonus per level up.
+- Aeon gain 0.25% Range Bonus per level up.
+- Seraphim gain 2.5% Rate of Fire Bonus per level up.
+
 [*]#Features/Bugfixes To-do List (Still need to do it, feel free to help make contribution!)
 
 - Add Storage Capacity Veterancy for Mass and Energy Storage that increases their capacity by 0.1% per level up.
 - Add Nuke Damage and Radius Veterancy to increase the nuclear missile destructive power per level up.
 
-[*]TvG Official v1.66 upcoming change
+[*]TvG Official v1.67 upcoming change
 
 - Nuke Damage and Radius Veterancy
 - Storage Capacity Veterancy

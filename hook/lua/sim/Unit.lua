@@ -246,23 +246,52 @@ Unit = Class(oldUnit) {
         local buffSupCan4Types = {'PerkSCC4'}
         local buffSupCan5Types = {'PerkSCC5'}
 
+        local buffUEFTypes = {'UEF'}
+        local buffCYBRANTypes = {'CYBRAN'}
+        local buffAEONTypes = {'AEON'}
+        local buffSERAPHIMTypes = {'SERAPHIM'}
+
         --Do unit buff checks that apply to all units (Code refactoring below by SATA24)
         for k,bType in buffTypes do
             Buff.ApplyBuff( self, 'Veterancy' .. bType)
         end
 
+        if table.find(bpA.Categories,'UEF') then
+            for k,bType in buffUEFTypes do
+                Buff.ApplyBuff( self, 'Veterancy' .. bType)
+            end
+        end
+
+        if table.find(bpA.Categories,'CYBRAN') then
+            for k,bType in buffCYBRANTypes do
+                Buff.ApplyBuff( self, 'Veterancy' .. bType)
+            end
+        end
+
+        if table.find(bpA.Categories,'SERAPHIM') then
+            for k,bType in buffSERAPHIMTypes do
+                Buff.ApplyBuff( self, 'Veterancy' .. bType)
+            end
+        end
+
+        if table.find(bpA.Categories,'AEON') then
+            for k,bType in buffAEONTypes do
+                Buff.ApplyBuff( self, 'Veterancy' .. bType)
+            end
+        end
+
         --Check for Hardened, Veteran, or Elite Status
-        if (old == 600) then 
+        if (old == 60) then 
             self.BuffHardenedCheck = true 
         else
             self.BuffHardenedCheck = false
         end
-        if (old == 800) then
+        if (old == 80) then
             self.BuffVeteranCheck = true
         else
             self.BuffVeteranCheck = false
         end
-        if (old == 1000) then
+        if (old == 100) then
             self.BuffEliteCheck = true
         else
             self.BuffEliteCheck = false
