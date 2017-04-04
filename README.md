@@ -64,6 +64,7 @@ Version 1.66 Changelist
 - Cybran gain 2.5% Damage Bonus per level up.
 - Aeon gain 0.25% Range Bonus per level up.
 - Seraphim gain 2.5% Rate of Fire Bonus per level up.
+- Fixed Hardened, Veteran and Elite Perk as they now should correctly grant per at level 60, 80 and 100 respectively.
 
 [*]#Features/Bugfixes To-do List (Still need to do it, feel free to help make contribution!)
 
