@@ -250,6 +250,7 @@ Unit = Class(oldUnit) {
         local buffCYBRANTypes = {'CYBRAN'}
         local buffAEONTypes = {'AEON'}
         local buffSERAPHIMTypes = {'SERAPHIM'}
+        local buffSERAPHIMTypes = {'NOMADS'}
 
         --Do unit buff checks that apply to all units (Code refactoring below by SATA24)
         for k,bType in buffTypes do
@@ -276,6 +277,12 @@ Unit = Class(oldUnit) {
 
         if table.find(bpA.Categories,'AEON') then
             for k,bType in buffAEONTypes do
+                Buff.ApplyBuff( self, 'Veterancy' .. bType)
+            end
+        end
+
+        if table.find(bpA.Categories,'NOMADS') then
+            for k,bType in buffNOMADSTypes do
                 Buff.ApplyBuff( self, 'Veterancy' .. bType)
             end
         end

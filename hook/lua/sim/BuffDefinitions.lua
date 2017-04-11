@@ -218,7 +218,7 @@ BuffBlueprint {
     Affects = {
         MoveMult = {
             Add = 0,
-            Mult = 1.01, --was 1.01
+            Mult = 1.0125, --was 1.01
         },
     },
 }
@@ -476,23 +476,19 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.35,
+            Mult = 1.15,
         },
 	RateOfFireBuf = {
             Add = 0,
-            Mult = 1.35,
+            Mult = 1.15,
         },
         Damage = {
             Add = 0,
-            Mult = 1.35,
-        },
-	MoveMult = {
-            Add = 0,
-            Mult = 1.35, --was 1.01
+            Mult = 1.15,
         },
         Regen = {
             Add = 0,
-            Mult = 1.35,--was 1.08
+            Mult = 1.15,--was 1.08
         },
     },
 }
@@ -507,23 +503,19 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.5,
+            Mult = 1.3,
         },
 	RateOfFireBuf = {
             Add = 0,
-            Mult = 1.5,
+            Mult = 1.3,
         },
         Damage = {
             Add = 0,
-            Mult = 1.5,
-        },
-	MoveMult = {
-            Add = 0,
-            Mult = 1.5, --was 1.01
+            Mult = 1.3,
         },
         Regen = {
             Add = 0,
-            Mult = 1.65,--was 1.08
+            Mult = 1.3,--was 1.08
         },
     },
 }
@@ -538,23 +530,19 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.75,
+            Mult = 1.5,
         },
 	RateOfFireBuf = {
             Add = 0,
-            Mult = 1.75,
+            Mult = 1.5,
         },
         Damage = {
             Add = 0,
-            Mult = 1.75,
-        },
-	MoveMult = {
-            Add = 0,
-            Mult = 1.75, --was 1.01
+            Mult = 1.5,
         },
         Regen = {
             Add = 0,
-            Mult = 1.75,--was 1.08
+            Mult = 1.5,--was 1.08
         },
     },
 }
@@ -569,15 +557,15 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.2,
+            Mult = 1.25,
         },
 	RateOfFireBuf = {
             Add = 0,
-            Mult = 1.2,
+            Mult = 1.25,
         },
         Damage = {
             Add = 0,
-            Mult = 1.2,
+            Mult = 1.25,
         },
     },
 }
@@ -592,15 +580,15 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.3,
+            Mult = 1.4,
         },
 	RateOfFireBuf = {
             Add = 0,
-            Mult = 1.3,
+            Mult = 1.4,
         },
         Damage = {
             Add = 0,
-            Mult = 1.3,
+            Mult = 1.4,
         },
     },
 }
@@ -615,15 +603,15 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.4,
+            Mult = 1.55,
         },
 	RateOfFireBuf = {
             Add = 0,
-            Mult = 1.4,
+            Mult = 1.55,
         },
         Damage = {
             Add = 0,
-            Mult = 1.4,
+            Mult = 1.55,
         },
     },
 }
@@ -638,15 +626,15 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.5,
+            Mult = 1.7,
         },
 	RateOfFireBuf = {
             Add = 0,
-            Mult = 1.5,
+            Mult = 1.7,
         },
         Damage = {
             Add = 0,
-            Mult = 1.5,
+            Mult = 1.7,
         },
     },
 }
@@ -661,15 +649,15 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.6,
+            Mult = 1.85,
         },
 	RateOfFireBuf = {
             Add = 0,
-            Mult = 1.6,
+            Mult = 1.85,
         },
         Damage = {
             Add = 0,
-            Mult = 1.6,
+            Mult = 1.85,
         },
     },
 }
@@ -883,7 +871,7 @@ BuffBlueprint {
     Affects = {
         Damage = {
             Add = 0,
-            Mult = 1.25,
+            Mult = 1.3,
         },
 		DamageRadius = {
             Add = 0,
@@ -902,7 +890,7 @@ BuffBlueprint {
     Affects = {
         Damage = {
             Add = 0,
-            Mult = 1.375,
+            Mult = 1.45,
         },
 		DamageRadius = {
             Add = 0,
@@ -921,7 +909,7 @@ BuffBlueprint {
     Affects = {
         Damage = {
             Add = 0,
-            Mult = 1.5,
+            Mult = 1.6,
         },
 		DamageRadius = {
             Add = 0,
@@ -940,7 +928,7 @@ BuffBlueprint {
     Affects = {
         Damage = {
             Add = 0,
-            Mult = 1.625,
+            Mult = 1.75,
         },
 		DamageRadius = {
             Add = 0,
@@ -959,7 +947,7 @@ BuffBlueprint {
     Affects = {
         Damage = {
             Add = 0,
-            Mult = 1.75,
+            Mult = 1.90,
         },
 		DamageRadius = {
             Add = 0,
@@ -968,7 +956,7 @@ BuffBlueprint {
     },
 }
 
--- UEF Health Bonus
+-- UEF Bonus
 
 BuffBlueprint {
     MaxLevel = 100, 
@@ -980,12 +968,12 @@ BuffBlueprint {
     Affects = {
         MaxHealth = {
             Add = 0,
-            Mult = 1.025,--was 1.12
+            Mult = 1.05,--was 1.12
         },
     },
 }
 
--- Cybran Damage Bonus
+-- Cybran Bonus
 BuffBlueprint {
     Name = 'VeterancyCYBRAN',
     DisplayName = 'VeterancyCYBRAN',
@@ -993,14 +981,18 @@ BuffBlueprint {
     Stacks = 'ALWAYS',
     Duration = -1,
     Affects = {
-        Damage = {
+        RateOfFireBuf = {
+            Add = 0,
+            Mult = 1.025,
+        },
+        Regen = {
             Add = 0,
             Mult = 1.025,
         },
     },
 }
 
--- Aeon Range Bonus
+-- Aeon Bonus
 BuffBlueprint {
     Name = 'VeterancyAEON',
     DisplayName = 'VeterancyAEON',
@@ -1010,12 +1002,12 @@ BuffBlueprint {
     Affects = {
         MaxRadius = {
             Add = 0,
-            Mult = 1.0025,
+            Mult = 1.005,
         },
     },
 }
 
--- Seraphim Rate of Fire Bonus
+-- Seraphim Bonus
 BuffBlueprint {
     Name = 'VeterancySERAPHIM',
     DisplayName = 'VeterancySERAPHIM',
@@ -1025,7 +1017,40 @@ BuffBlueprint {
     Affects = {
         RateOfFireBuf = {
             Add = 0,
-            Mult = 1.025,
+            Mult = 1.01,
+        },
+        Damage = {
+            Add = 0,
+            Mult = 1.01,
+        },
+        MaxHealth = {
+            Add = 0,
+            Mult = 1.01,--was 1.12
+        },
+        MaxRadius = {
+            Add = 0,
+            Mult = 1.001,
+        },
+        Regen = {
+            Add = 0,
+            Mult = 1.01,
+        },
+    },
+}
+
+-- NOMADS Bonus
+
+BuffBlueprint {
+    MaxLevel = 100, 
+    Name = 'VeterancyNOMADS',
+    DisplayName = 'VeterancyNOMADS',
+    BuffType = 'VeterancyNOMADS',
+    Stacks = 'ALWAYS',
+    Duration = -1,
+    Affects = {
+        Damage = {
+            Add = 0,
+            Mult = 1.05,--was 1.12
         },
     },
 }

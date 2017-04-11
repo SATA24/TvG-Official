@@ -20,11 +20,11 @@ do
 
             -- Override for ACUs, SCUs and Specific Units
             if bp.Economy and not bp.Economy.xpBaseValue and bp.Economy.BuildCostMass and bp.Economy.BuildCostEnergy and bp.Economy.BuildTime and table.find(bp.Categories,'COMMAND') then
-           		bp.Economy.xpTimeStep = 275
+           		bp.Economy.xpTimeStep = 412.5
                 bp.Economy.xpBaseValue = ACUbaseValue
             end--acu
             if bp.Economy and not bp.Economy.xpBaseValue and bp.Economy.BuildCostMass and bp.Economy.BuildCostEnergy and bp.Economy.BuildTime and table.find(bp.Categories,'SUBCOMMANDER') then
-           		bp.Economy.xpTimeStep = 90.75
+           		bp.Economy.xpTimeStep = 103.125
                 bp.Economy.xpBaseValue = SCUbaseValue
             end--scu
 
